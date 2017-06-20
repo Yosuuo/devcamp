@@ -33,3 +33,29 @@ git status
 git pull
 git pull -m meh
 git pull
+git checkout controller-generator
+git commit -m c
+git add .
+git status
+git add ../.bash_history
+git add ../.irb-history
+git status
+git commit -m l
+git status
+git checkout controller generator
+git checkout controller-generator
+clear
+rails g controller
+sudo service postgresql start
+rails g controller
+clear
+git push origin controller-generator
+git status
+git checkout master
+git pull 
+git status
+git add .
+git status
+git commit -m m
+git status
+git pull
