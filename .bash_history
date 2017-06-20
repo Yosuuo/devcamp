@@ -90,3 +90,56 @@ rails db:drop:skills
 rails db:create
 rails db:migrate
 rails c
+rails s -b $IP -p $PORT
+cd generator
+rails s -b $IP -p $PORT
+cd devcampportfolio
+rails s -b $IP -p $PORT
+clear
+git status
+git add .
+git status
+git add ../../.bash_history ../../.irb-history
+git status
+git commit -m integrated skills
+git commit -m a
+git push
+clear
+rails g resource portfolio title:string subtitle:string body:text main_image:text thumb_image:text
+clear
+rails db:migrate
+git status
+git add .
+git status
+git commit -m "resource files"
+git status
+git push
+cd
+rails new generator -T --database=postgresql
+clear
+cd generator
+rails db:create
+cd workspace
+cd
+cd workspace
+cd
+cd generator
+cd
+cd workspace
+rails new generator -T --database=postgresql
+rails db:create
+cd generator
+rails db:create
+rails g scaffold post title:string body:text
+rails db:migrate
+rails g scaffold blog title:string 
+rails db:migrate
+rails g scaffold Guide title:string
+rails db:migrate
+clear
+cd
+cd workspace
+cd devcampportfolio
+celar
+clear
+rails c

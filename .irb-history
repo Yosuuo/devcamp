@@ -5,3 +5,10 @@ Skill.create!(title: "Rails", percent_utilized: 75)
 Skill.create!(title: "HTML", percent_utilized: 15)
 Skill.create!(title: "Angular", percent_utilized: 5)
 Skill.all
+10.times do |blog
+10.times do |blog|
+puts blog
+end
+blog.count
+Blog.count
+portfolio.count
