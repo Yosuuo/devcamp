@@ -1,2 +1,7 @@
 
 puts "Hey from C("
+clear
+Skill.create!(title: "Rails", percent_utilized: 75)
+Skill.create!(title: "HTML", percent_utilized: 15)
+Skill.create!(title: "Angular", percent_utilized: 5)
+Skill.all

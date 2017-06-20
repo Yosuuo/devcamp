@@ -59,3 +59,34 @@ git status
 git commit -m m
 git status
 git pull
+sudo service postgresql start
+git status
+cd devcampportfolio
+git status
+git add ../../.bash_history
+git commit -m b
+git status
+git pull -m a
+git pull
+git status
+git checkout model generator
+git checkout model-generator
+git pull
+git pull master
+git checkout master
+rails g model Skill title:string percent_utilized:integer
+rails db:migrate
+rails db:migrate --force
+rails db:migrate --trace
+git branch -d model-generator
+git branch -D model-generator
+rails db:migrate
+clear
+rails g model Skill title:string percent_utilized:integer
+rails g model Skill title:string percent_utilized:integer --force
+rails db:migrate
+rails db:drop:all
+rails db:drop:skills
+rails db:create
+rails db:migrate
+rails c
