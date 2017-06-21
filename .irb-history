@@ -12,3 +12,5 @@ end
 blog.count
 Blog.count
 portfolio.count
+portfolio.last
+Portfolio.last
