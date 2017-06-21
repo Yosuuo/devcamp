@@ -143,3 +143,9 @@ cd devcampportfolio
 celar
 clear
 rails c
+rails s -b $IP -p $PORT
+sudo service postgresql start
+cd devcampportfoli
+cd devcampportfolio
+sudo service postgresql start
+rails s -b $IP -p $PORT
