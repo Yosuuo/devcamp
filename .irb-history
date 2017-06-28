@@ -15,3 +15,5 @@ portfolio.count
 portfolio.last
 Portfolio.last
 Portfolio.find(5)
+portfolio = Portfolio.last
+portfolio
