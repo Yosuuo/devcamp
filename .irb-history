@@ -17,3 +17,7 @@ Portfolio.last
 Portfolio.find(5)
 portfolio = Portfolio.last
 portfolio
+Blog.create!(title: "My Title", body: "wewewewewewwewewewewewe")
+Blog.first
+User.find_each(&:save)
+Blog.find_each(&:save)

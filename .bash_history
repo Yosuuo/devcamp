@@ -149,3 +149,6 @@ cd devcampportfoli
 cd devcampportfolio
 sudo service postgresql start
 rails s -b $IP -p $PORT
+cd devcampportfolio/
+sudo service postgresql start
+rails s -b $IP -p $PORT
