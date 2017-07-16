@@ -1,6 +1,5 @@
 
 puts "Hey from C("
-clear
 Skill.create!(title: "Rails", percent_utilized: 75)
 Skill.create!(title: "HTML", percent_utilized: 15)
 Skill.create!(title: "Angular", percent_utilized: 5)
@@ -21,3 +20,13 @@ Blog.create!(title: "My Title", body: "wewewewewewwewewewewewe")
 Blog.first
 User.find_each(&:save)
 Blog.find_each(&:save)
+blog.create!(title: "asdf", body: "asdfasdf")
+Blog.create!(title: "asdf", body: "asdfasdf")
+Blog.last.published!
+Blog.last
+Blog.first.published!
+Blog.published.count
+Blog.3.published!
+Blog.published
+Blog.all
+clear
