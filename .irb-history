@@ -30,3 +30,6 @@ Blog.3.published!
 Blog.published
 Blog.all
 clear
+Blog.last.draft?
+Blog.last.published?
+rails s
